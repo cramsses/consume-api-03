@@ -12,5 +12,5 @@ import { LogComponent } from './log/log.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'clientapi3';
+  title = 'USERS API 3.0';
 }

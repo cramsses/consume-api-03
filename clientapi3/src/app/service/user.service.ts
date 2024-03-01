@@ -17,10 +17,10 @@ export class UserService {
   public findAll(): Observable<User[]> {
     return this.http.get<User[]>(this.usersUrl+'/all');
   }
-/*
-  public findById(id:number): Observable<User[]> {
-    return this.http.get<User[]>(this.usersUrl+'/'+id);
+
+  public findById(id:number): Observable<User> {
+    return this.http.get<User>(this.usersUrl+'/'+id);
   }
-*/
+
 
 }
